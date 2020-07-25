@@ -1,3 +1,6 @@
+// Variables
+@import "variables";
+
 // Fonts
 @import "master/mixins";
 @import "master/colors";
@@ -5,12 +8,113 @@
 @import "master/fonts";
 @import "master/typography";
 @import "master/positions";
+@import "master/buttons";
 
-// Variables
-@import "variables";
+@import "elements/ribbon";
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
+@import "master/master";
+
 @import "home/header";
 @import "home/footer";
+
+@import "home/main-hero";
+@import "home/main-elements";
+@import "home/main-bundles";
+
+@import "home/main-hostingpackages";
+@import "home/main-hostingbenefits";
+@import "home/main-phpmodules";
+
+.main-share {
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+	.main-share__row {
+		display: flex;
+		flex-wrap: wrap;
+
+		> * {
+			display: flex;
+			align-items: center;
+
+			&:nth-of-type(2) {
+				justify-content: flex-end;
+			}
+		}
+	}
+
+	.share__tagline {
+		@include fontSize(1.75);
+		margin: 0;
+	}
+
+	.share-list {
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: flex-end;
+
+		.share-list__item {
+			list-style-type: none;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			& + .share-list__item {
+				margin-left: 15px;
+			}
+
+			.share-link {
+				padding: 10px;
+				display: flex;
+				align-items: center;
+
+				&:hover {
+					background-color: darken($brand-gray, 10%);
+					text-decoration: none;
+
+					.share-count {
+						color: $brand-primary;
+					}
+				}
+			}
+
+			.share-icon {
+				@include fontSize(2.5);
+				margin-right: 10px;
+			}
+
+			.share-count {
+				@include fontSize(1.125);
+				color: $brand-disabled;
+				padding: 2.5px 5px;
+				border-radius: 2px;
+				border: 1px solid darken($border-color, 10%);
+				position: relative;
+
+				&::before {
+					content: "\A";
+					border-style: solid;
+					border-width: 5px 10px 5px 0;
+					border-color: transparent darken($border-color, 10%)
+						transparent transparent;
+					position: absolute;
+					left: -10px;
+					top: 10px;
+				}
+			}
+		}
+	}
+}
+
+.main-support {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.main-support__tagline {
+	@include fontSize(1.75);
+}

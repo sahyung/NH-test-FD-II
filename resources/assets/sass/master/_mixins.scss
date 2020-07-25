@@ -11,6 +11,21 @@
 	}
 }
 
+@mixin createBemStylingWithCustomPropertyAndFixedValue(
+	$propertyName,
+	$propertyValues,
+	$className,
+	$fixedValue,
+	$isImportant: true
+) {
+	@each $value in $propertyValues {
+		.#{$className}-#{$value} {
+			#{$propertyName}-#{$value}: #{$fixedValue}
+				#{if($isImportant, "!important", "")};
+		}
+	}
+}
+
 @mixin create2DBemStyling(
 	$propertyName,
 	$propertyValues,
@@ -22,4 +37,9 @@
 			#{$propertyName}: #{$value} #{if($isImportant, "!important", "")};
 		}
 	}
+}
+
+@mixin fontSize($multiplier: 1, $size: $fontSize) {
+	font-size: #{map-get($size, "px") * $multiplier}px;
+	font-size: #{map-get($size, "rem") * $multiplier}rem;
 }

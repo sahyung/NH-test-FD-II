@@ -1,13 +1,12 @@
-
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-require('./bootstrap');
+require("./bootstrap");
 
-window.Vue = require('vue');
+window.Vue = require("vue");
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -15,8 +14,22 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('app', require('@js/components/App.vue').default);
+import { kFormatter, decimalFormat } from "@js/helpers/number-formatter.js";
+
+Vue.component("app", require("@js/components/App.vue").default);
+
+Vue.filter("imageUrl", function(fileName) {
+	return fileName ? require("@images/" + fileName) : "";
+});
+
+Vue.filter("svgUrl", function(fileName) {
+	return fileName ? require("@svg/" + fileName) : "";
+});
+
+Vue.filter("kFormatter", kFormatter);
+
+Vue.filter("decimalFormat", decimalFormat);
 
 const app = new Vue({
-    el: '#app'
+	el: "#app"
 });

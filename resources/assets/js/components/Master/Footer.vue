@@ -1,9 +1,11 @@
 <template>
-	<div class="home-footer">
+	<div class="footer--wrapper">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-sm-6">
-					<strong class="text-uppercase">HUBUNGI KAMI</strong>
+					<strong class="footer-list-title text-uppercase"
+						>HUBUNGI KAMI</strong
+					>
 					<address>
 						<span class="display-block">0274-5305505</span>
 						<span class="display-block">Senin - Minggu</span>
@@ -15,11 +17,12 @@
 					</address>
 				</div>
 				<div class="col-md-3 col-sm-6">
-					<strong class="text-uppercase display-block"
-						>LAYANAN</strong
-					>
-					<ul>
-						<li v-for="(service, idx) in list.niagaServices">
+					<strong class=" footer-list-title ">LAYANAN</strong>
+					<ul class="footer-link-list">
+						<li
+							class="footer-link-list__item"
+							v-for="(service, idx) in list.niagaServices"
+						>
 							<a :href="service.url || '#'">
 								{{ service.text }}
 							</a>
@@ -27,11 +30,12 @@
 					</ul>
 				</div>
 				<div class="col-md-3 col-sm-6">
-					<strong class="text-uppercase display-block"
-						>SERVICE HOSTING</strong
-					>
-					<ul>
-						<li v-for="(service, idx) in list.hostingServices">
+					<strong class="footer-list-title ">SERVICE HOSTING</strong>
+					<ul class="footer-link-list">
+						<li
+							class="footer-link-list__item"
+							v-for="(service, idx) in list.hostingServices"
+						>
 							<a :href="service.url || '#'">
 								{{ service.text }}
 							</a>
@@ -39,11 +43,12 @@
 					</ul>
 				</div>
 				<div class="col-md-3 col-sm-6">
-					<strong class="text-uppercase display-block"
-						>TUTORIAL</strong
-					>
-					<ul>
-						<li v-for="(service, idx) in list.tutorial">
+					<strong class="footer-list-title ">TUTORIAL</strong>
+					<ul class="footer-link-list">
+						<li
+							class="footer-link-list__item"
+							v-for="(service, idx) in list.tutorial"
+						>
 							<a :href="service.url || '#'">
 								{{ service.text }}
 							</a>
@@ -51,13 +56,14 @@
 					</ul>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row m-top-40">
 				<div class="col-md-3 col-sm-6">
-					<strong class="text-uppercase display-block"
-						>TENTANG KAMI</strong
-					>
-					<ul>
-						<li v-for="(service, idx) in list.about">
+					<strong class="footer-list-title ">TENTANG KAMI</strong>
+					<ul class="footer-link-list">
+						<li
+							class="footer-link-list__item"
+							v-for="(service, idx) in list.about"
+						>
 							<a :href="service.url || '#'">
 								{{ service.text }}
 							</a>
@@ -65,11 +71,14 @@
 					</ul>
 				</div>
 				<div class="col-md-3 col-sm-6">
-					<strong class="text-uppercase display-block"
+					<strong class="footer-list-title "
 						>KENAPA PILIH NIAGAHOSTER?</strong
 					>
-					<ul>
-						<li v-for="(service, idx) in list.excellences">
+					<ul class="footer-link-list">
+						<li
+							class="footer-link-list__item"
+							v-for="(service, idx) in list.excellences"
+						>
 							<a :href="service.url || '#'">
 								{{ service.text }}
 							</a>
@@ -77,18 +86,25 @@
 					</ul>
 				</div>
 				<div class="col-md-3 col-sm-6">
+					<strong class="footer-list-title ">newsletter</strong>
 					<form>
-						<fieldset>
-							<input type="text" />
-							<button
-								type="button"
-								name="subscribeButton"
-								class="btn btn-primary"
-							>
-								Berlangganan
-							</button>
+						<fieldset class="footer-newsletter-form">
+							<div class="input-wrapper">
+								<input
+									type="email"
+									placeholder="Email"
+									v-model="subscribe"
+								/>
+								<button
+									type="button"
+									name="subscribeButton"
+									class="btn btn-primary btn-niaga  btn-padding-xs btn-normaltext"
+								>
+									Berlangganan
+								</button>
+							</div>
 						</fieldset>
-						<p>
+						<p class="footer-newsletter m-top-10">
 							Dapatkan promo dan konten terbaik dari penyedia
 							hosting favorit Anda.
 						</p>
@@ -106,24 +122,43 @@
 					</a>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row m-top-40">
 				<div class="col-md-12">
-					<strong class="text-uppercase">PEMBAYARAN</strong>
-					<ul>
-						<li>
-							<img src="" />
+					<strong class="footer-list-title m-bottom-10"
+						>PEMBAYARAN</strong
+					>
+					<ul class="payment-list">
+						<li
+							class="payment-list__item"
+							v-for="(payment, idx) in list.payments"
+							:title="payment.id"
+						>
+							<img
+								class="payment__image"
+								:src="payment.url | imageUrl"
+							/>
 						</li>
 					</ul>
-					<p>
+					<p class="m-top-20 footer-activation">
 						Aktivasi instan dengan E-Payment. Hosting dan Domain
 						langsung aktif!
 					</p>
-					<hr />
+					<hr class="" />
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-9"></div>
-				<div class="col-md-3">
+				<div class="col-md-8 footer-copyright">
+					<p>
+						Copyright(c) 2016 Niagahoster | Hosting powered by PHP7,
+						CloudLinux, CloudFare, BitNinja and DC Biznet
+						Technovillage Jakarta
+					</p>
+					<p>
+						Cloud VPS Murah powered by Webuzo Softaculous, Intel SSD
+						and cloud computing technology
+					</p>
+				</div>
+				<div class="col-md-4 text-right">
 					<a href="#">Syarat dan Ketentuan</a> |
 					<a href="#">Kebijakan Privasi</a>
 				</div>
@@ -143,7 +178,46 @@ import tutorialList from "@json/footer/tutorial.json";
 export default {
 	data() {
 		return {
+			subscribe: "",
 			list: {
+				payments: [
+					{
+						url: "bca_logo.png",
+						id: "bca"
+					},
+					{
+						url: "mandiri_logo.png",
+						id: "mandiri"
+					},
+					{
+						url: "bni_logo.png",
+						id: "bni"
+					},
+					{
+						url: "visa_logo.png",
+						id: "visa"
+					},
+					{
+						url: "mastercard_logo.png",
+						id: "mastercard"
+					},
+					{
+						url: "atmbersama_logo.png",
+						id: "atmbersama"
+					},
+					{
+						url: "permata_logo.png",
+						id: "permata"
+					},
+					{
+						url: "prima_logo.png",
+						id: "prima"
+					},
+					{
+						url: "alto_logo.png",
+						id: "alto"
+					}
+				],
 				about: aboutList,
 				excellences: excellencesList,
 				hostingServices: hostingServicesList,
@@ -153,8 +227,6 @@ export default {
 			}
 		};
 	},
-	mounted() {
-		console.log("Component mounted.");
-	}
+	mounted() {}
 };
 </script>
