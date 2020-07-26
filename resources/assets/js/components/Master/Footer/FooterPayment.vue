@@ -21,8 +21,6 @@
 </template>
 
 <script>
-import paymentList from '@json/footer/payment-list.json';
-
 export default {
   data() {
     return {
