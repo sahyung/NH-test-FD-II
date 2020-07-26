@@ -1,0 +1,37 @@
+[{
+        "url": "bca_logo.png",
+        "id": "bca"
+    },
+    {
+        "url": "mandiri_logo.png",
+        "id": "mandiri"
+    },
+    {
+        "url": "bni_logo.png",
+        "id": "bni"
+    },
+    {
+        "url": "visa_logo.png",
+        "id": "visa"
+    },
+    {
+        "url": "mastercard_logo.png",
+        "id": "mastercard"
+    },
+    {
+        "url": "atmbersama_logo.png",
+        "id": "atmbersama"
+    },
+    {
+        "url": "permata_logo.png",
+        "id": "permata"
+    },
+    {
+        "url": "prima_logo.png",
+        "id": "prima"
+    },
+    {
+        "url": "alto_logo.png",
+        "id": "alto"
+    }
+]

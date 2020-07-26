@@ -1,9 +1,7 @@
 .header--wrapper {
-	.header-contact {
-	}
+	.header-contact {}
 
-	.header-nav {
-	}
+	.header-nav {}
 }
 
 .header-contact {
@@ -22,7 +20,7 @@
 		align-items: center;
 		@include fontSize(0.875);
 
-		> * {
+		>* {
 			display: inline-block;
 		}
 
@@ -31,7 +29,7 @@
 			color: $brand-white;
 			margin-top: -15px;
 
-			> i {
+			>i {
 				position: absolute;
 				left: -5px;
 				@include fontSize(1.125);
@@ -60,7 +58,7 @@
 		list-style-type: none;
 		display: inline-block;
 
-		& + .info-list__item {
+		&+.info-list__item {
 			margin-left: 10px;
 		}
 	}
@@ -100,7 +98,7 @@
 		display: inline-block;
 		@include fontSize(1.25);
 
-		& + .menus-list__item {
+		&+.menus-list__item {
 			margin-left: 30px;
 		}
 	}
@@ -109,15 +107,12 @@
 .header-nav__navbar {
 	background-color: transparent;
 	border-color: transparent;
-
-	&.navbar-inverse .header-nav__button .icon-bar {
-		background-color: $dark-primary;
-	}
 }
 
 .header-nav__button {
 	background-color: transparent;
 	border-color: transparent;
+
 
 	&:hover,
 	&:focus {
@@ -129,8 +124,14 @@
 	}
 }
 
+.navbar-inverse .navbar-toggle.header-nav__button {
+	.icon-bar {
+		background-color: $dark-primary;
+	}
+}
+
 .header-nav__list {
-	> li {
+	>li {
 		font-family: var(--roboto-light);
 		@include fontSize(1.25);
 	}
