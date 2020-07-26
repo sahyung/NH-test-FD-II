@@ -1,17 +1,17 @@
 <template>
   <section class="main-hostingbenefits">
     <div class="container">
-      <section class="row main-hostingbenefits__row">
+      <section class="row main-benefits__row">
         <div class="col-md-12 text-center">
           <h2 class="text-montserrat-light">
             Powerful dengan limit PHP yang lebih besar
           </h2>
         </div>
-        <div class="col-md-6 main-hostingbenefits__benefits">
+        <div class="col-md-6 main-benefits__benefits">
           <ul class="benefit-list">
             <li
               class="benefit-list__item"
-              v-for="(hostingBenefit, idx) in list.hostingBenefits.slice(0, 3)"
+              v-for="(hostingBenefit, idx) in list.phpLimit.slice(0, 3)"
               :key="`benefit_col1_${idx}`"
             >
               <i
@@ -28,11 +28,11 @@
             </li>
           </ul>
         </div>
-        <div class="col-md-6 main-hostingbenefits__benefits">
+        <div class="col-md-6 main-benefits__benefits">
           <ul class="benefit-list">
             <li
               class="benefit-list__item"
-              v-for="(hostingBenefit, idx) in list.hostingBenefits.slice(3, 6)"
+              v-for="(hostingBenefit, idx) in list.phpLimit.slice(3, 6)"
               :key="`benefit_col2_${idx}`"
             >
               <i
@@ -55,17 +55,23 @@
 </template>
 
 <script>
-import hostingBenefitList from '@json/hosting-benefits.json';
 export default {
   data() {
     return {
       list: {
-        hostingBenefits: hostingBenefitList,
+        phpLimit: [],
       },
     };
   },
-  mounted() {
-    // do something
+  created() {
+    this.getPhpLimit();
+  },
+  methods: {
+    getPhpLimit() {
+      axios.get('api/php-limit').then((resp) => {
+        this.list.phpLimit = resp.data;
+      });
+    },
   },
 };
 </script>

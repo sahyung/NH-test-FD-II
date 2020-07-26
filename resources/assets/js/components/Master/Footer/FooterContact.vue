@@ -58,20 +58,33 @@
 </template>
 
 <script>
-import hostingServicesList from '@json/footer/hosting-services.json';
-import niagaServicesList from '@json/footer/niaga-services.json';
 import tutorialList from '@json/footer/tutorial.json';
 
 export default {
   data() {
     return {
       list: {
-        hostingServices: hostingServicesList,
-        niagaServices: niagaServicesList,
+        hostingServices: [],
+        niagaServices: [],
         tutorial: tutorialList,
       },
     };
   },
-  mounted() {},
+  created() {
+    this.getHostingServices();
+    this.getNiagaServices();
+  },
+  methods: {
+    getHostingServices() {
+      axios.get('api/hosting-services').then((resp) => {
+        this.list.hostingServices = resp.data;
+      });
+    },
+    getNiagaServices() {
+      axios.get('api/niaga-services').then((resp) => {
+        this.list.niagaServices = resp.data;
+      });
+    },
+  },
 };
 </script>

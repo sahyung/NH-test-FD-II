@@ -27,10 +27,19 @@ export default {
   data() {
     return {
       list: {
-        payments: paymentList,
+        payments: [],
       },
     };
   },
-  mounted() {},
+  created() {
+    this.getPayments();
+  },
+  methods: {
+    getPayments() {
+      axios.get('api/payment-list').then((resp) => {
+        this.list.payments = resp.data;
+      });
+    },
+  },
 };
 </script>

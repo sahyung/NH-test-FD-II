@@ -10,7 +10,7 @@
           <ul class="text__benefits benefit-list">
             <li
               class="benefit-list__item"
-              v-for="(benefit, idx) in list.benefits"
+              v-for="(benefit, idx) in list.hero"
               :key="`benefit_${idx}`"
             >
               <i
@@ -34,18 +34,23 @@
 </template>
 
 <script>
-import niagahosterBenefits from '@json/niagahoster-benefits.json';
-
 export default {
   data() {
     return {
       list: {
-        benefits: niagahosterBenefits,
+        hero: [],
       },
     };
   },
-  mounted() {
-    // do something...
+  created() {
+    this.getHero();
+  },
+  methods: {
+    getHero() {
+      axios.get('api/hosting-niaga').then((resp) => {
+        this.list.hero = resp.data;
+      });
+    },
   },
 };
 </script>

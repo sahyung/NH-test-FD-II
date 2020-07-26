@@ -28,15 +28,23 @@
 </template>
 
 <script>
-import hostingBundles from '@json/hosting-bundles.json';
 export default {
   data() {
     return {
       list: {
-        hostingBundles: hostingBundles,
+        hostingBundles: [],
       },
     };
   },
-  mounted() {},
+  created() {
+    this.getBundles();
+  },
+  methods: {
+    getBundles() {
+      axios.get('api/hosting-bundles').then((resp) => {
+        this.list.hostingBundles = resp.data;
+      });
+    },
+  },
 };
 </script>

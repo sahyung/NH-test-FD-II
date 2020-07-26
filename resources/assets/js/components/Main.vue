@@ -3,7 +3,7 @@
     <hero />
     <hero-elements />
     <hosting-packages />
-    <benefits />
+    <php-limit />
     <hr class="mini-hr" />
     <bundles />
     <hr class="mini-hr" />
@@ -19,7 +19,7 @@
 import Hero from '@components/main/Hero.vue';
 import HeroElements from '@components/main/HeroElements.vue';
 import HostingPackages from '@components/main/HostingPackages.vue';
-import Benefits from '@components/main/Benefits.vue';
+import PhpLimit from '@components/main/PhpLimit.vue';
 import LaravelSupport from '@components/main/LaravelSupport.vue';
 import Bundles from '@components/main/Bundles.vue';
 import PhpModules from '@components/main/PhpModules.vue';
@@ -32,19 +32,13 @@ export default {
     Hero,
     HeroElements,
     HostingPackages,
-    Benefits,
+    PhpLimit,
     LaravelSupport,
     Bundles,
     PhpModules,
     LinuxSupport,
     Share,
     Support,
-  },
-  data() {
-    return {};
-  },
-  mounted() {
-    // do something ...
   },
 };
 </script>

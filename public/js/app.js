@@ -1760,15 +1760,11 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'App',
-  data: function data() {
-    return {};
-  },
   components: {
     HeaderItem: _js_components_Master_Header_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
     MainItem: _js_components_Main_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
     FooterItem: _js_components_Master_Footer_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
-  },
-  mounted: function mounted() {}
+  }
 });
 
 /***/ }),
@@ -1785,7 +1781,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_main_Hero_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @components/main/Hero.vue */ "./resources/assets/js/components/main/Hero.vue");
 /* harmony import */ var _components_main_HeroElements_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @components/main/HeroElements.vue */ "./resources/assets/js/components/main/HeroElements.vue");
 /* harmony import */ var _components_main_HostingPackages_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @components/main/HostingPackages.vue */ "./resources/assets/js/components/main/HostingPackages.vue");
-/* harmony import */ var _components_main_Benefits_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @components/main/Benefits.vue */ "./resources/assets/js/components/main/Benefits.vue");
+/* harmony import */ var _components_main_PhpLimit_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @components/main/PhpLimit.vue */ "./resources/assets/js/components/main/PhpLimit.vue");
 /* harmony import */ var _components_main_LaravelSupport_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @components/main/LaravelSupport.vue */ "./resources/assets/js/components/main/LaravelSupport.vue");
 /* harmony import */ var _components_main_Bundles_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @components/main/Bundles.vue */ "./resources/assets/js/components/main/Bundles.vue");
 /* harmony import */ var _components_main_PhpModules_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @components/main/PhpModules.vue */ "./resources/assets/js/components/main/PhpModules.vue");
@@ -1824,18 +1820,13 @@ __webpack_require__.r(__webpack_exports__);
     Hero: _components_main_Hero_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
     HeroElements: _components_main_HeroElements_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
     HostingPackages: _components_main_HostingPackages_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-    Benefits: _components_main_Benefits_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
+    PhpLimit: _components_main_PhpLimit_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
     LaravelSupport: _components_main_LaravelSupport_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
     Bundles: _components_main_Bundles_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
     PhpModules: _components_main_PhpModules_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
     LinuxSupport: _components_main_LinuxSupport_vue__WEBPACK_IMPORTED_MODULE_7__["default"],
     Share: _components_main_Share_vue__WEBPACK_IMPORTED_MODULE_8__["default"],
     Support: _components_main_Support_vue__WEBPACK_IMPORTED_MODULE_9__["default"]
-  },
-  data: function data() {
-    return {};
-  },
-  mounted: function mounted() {// do something ...
   }
 });
 
@@ -1924,88 +1915,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/main/Benefits.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/assets/js/components/main/Benefits.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _json_hosting_benefits_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @json/hosting-benefits.json */ "./resources/assets/json/hosting-benefits.json");
-var _json_hosting_benefits_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/hosting-benefits.json */ "./resources/assets/json/hosting-benefits.json", 1);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  data: function data() {
-    return {
-      list: {
-        hostingBenefits: _json_hosting_benefits_json__WEBPACK_IMPORTED_MODULE_0__
-      }
-    };
-  },
-  mounted: function mounted() {// do something
-  }
-});
-
-/***/ }),
-
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/main/Bundles.vue?vue&type=script&lang=js&":
 /*!******************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/assets/js/components/main/Bundles.vue?vue&type=script&lang=js& ***!
@@ -2015,8 +1924,6 @@ var _json_hosting_benefits_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PU
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _json_hosting_bundles_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @json/hosting-bundles.json */ "./resources/assets/json/hosting-bundles.json");
-var _json_hosting_bundles_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/hosting-bundles.json */ "./resources/assets/json/hosting-bundles.json", 1);
 //
 //
 //
@@ -2046,16 +1953,26 @@ var _json_hosting_bundles_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PUR
 //
 //
 //
-
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       list: {
-        hostingBundles: _json_hosting_bundles_json__WEBPACK_IMPORTED_MODULE_0__
+        hostingBundles: []
       }
     };
   },
-  mounted: function mounted() {}
+  created: function created() {
+    this.getBundles();
+  },
+  methods: {
+    getBundles: function getBundles() {
+      var _this = this;
+
+      axios.get('api/hosting-bundles').then(function (resp) {
+        _this.list.hostingBundles = resp.data;
+      });
+    }
+  }
 });
 
 /***/ }),
@@ -2069,8 +1986,6 @@ var _json_hosting_bundles_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PUR
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _json_niagahoster_benefits_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @json/niagahoster-benefits.json */ "./resources/assets/json/niagahoster-benefits.json");
-var _json_niagahoster_benefits_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/niagahoster-benefits.json */ "./resources/assets/json/niagahoster-benefits.json", 1);
 //
 //
 //
@@ -2106,16 +2021,25 @@ var _json_niagahoster_benefits_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#
 //
 //
 //
-
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       list: {
-        benefits: _json_niagahoster_benefits_json__WEBPACK_IMPORTED_MODULE_0__
+        hero: []
       }
     };
   },
-  mounted: function mounted() {// do something...
+  created: function created() {
+    this.getHero();
+  },
+  methods: {
+    getHero: function getHero() {
+      var _this = this;
+
+      axios.get('api/hosting-niaga').then(function (resp) {
+        _this.list.hero = resp.data;
+      });
+    }
   }
 });
 
@@ -2130,8 +2054,6 @@ var _json_niagahoster_benefits_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _json_hosting_features_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @json/hosting-features.json */ "./resources/assets/json/hosting-features.json");
-var _json_hosting_features_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/hosting-features.json */ "./resources/assets/json/hosting-features.json", 1);
 //
 //
 //
@@ -2151,16 +2073,35 @@ var _json_hosting_features_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PU
 //
 //
 //
-
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       list: {
-        hostingFeatures: _json_hosting_features_json__WEBPACK_IMPORTED_MODULE_0__ || []
+        heroFeatures: []
       }
     };
   },
-  mounted: function mounted() {}
+  created: function created() {
+    this.getHeroFeatures();
+  },
+  methods: {
+    getHeroFeatures: function getHeroFeatures() {
+      var _this = this;
+
+      axios.get('api/hero-feature').then(function (resp) {
+        _this.list.hero = resp.data;
+      });
+    }
+  }
 });
 
 /***/ }),
@@ -2174,8 +2115,6 @@ var _json_hosting_features_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PU
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _json_hosting_packages_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @json/hosting-packages.json */ "./resources/assets/json/hosting-packages.json");
-var _json_hosting_packages_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/hosting-packages.json */ "./resources/assets/json/hosting-packages.json", 1);
 //
 //
 //
@@ -2283,60 +2222,48 @@ var _json_hosting_packages_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PU
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       list: {
-        hostingPackages: _json_hosting_packages_json__WEBPACK_IMPORTED_MODULE_0__ || []
+        hostingPackages: []
       }
     };
   },
-  mounted: function mounted() {// do something ...
+  created: function created() {
+    this.getHostingPackages();
   },
   methods: {
     decimalFormat: function decimalFormat() {
       var amount = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
       var decimalCount = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
-      var decimal = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : ",";
-      var thousands = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : ".";
+      var decimal = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : ',';
+      var thousands = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : '.';
 
       try {
         decimalCount = Math.abs(decimalCount);
         decimalCount = isNaN(decimalCount) ? 2 : decimalCount;
-        var negativeSign = amount < 0 ? "-" : "";
+        var negativeSign = amount < 0 ? '-' : '';
         var i = parseInt(amount = Math.abs(Number(amount) || 0).toFixed(decimalCount)).toString();
         var j = i.length > 3 ? i.length % 3 : 0;
-        return negativeSign + (j ? i.substr(0, j) + thousands : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + thousands) + (decimalCount ? decimal + Math.abs(amount - i).toFixed(decimalCount).slice(2) : "");
+        return negativeSign + (j ? i.substr(0, j) + thousands : '') + i.substr(j).replace(/(\d{3})(?=\d)/g, '$1' + thousands) + (decimalCount ? decimal + Math.abs(amount - i).toFixed(decimalCount).slice(2) : '');
       } catch (e) {
         console.log(e);
       }
     },
     discountedPrice: function discountedPrice(hostingPackage) {
       var priceAfterDiscount = hostingPackage.priceAfterDiscount;
-      var priceAfterDiscountHtml = String(this.decimalFormat(priceAfterDiscount)).split(".").map(function (item, idx) {
+      var priceAfterDiscountHtml = String(this.decimalFormat(priceAfterDiscount)).split('.').map(function (item, idx) {
         return idx == 0 ? "<span class=\"pop-out\">".concat(item, "</span>") : item;
-      }).join(".");
+      }).join('.');
       return priceAfterDiscountHtml;
+    },
+    getHostingPackages: function getHostingPackages() {
+      var _this = this;
+
+      axios.get('api/hosting-packages').then(function (resp) {
+        _this.list.hostingPackages = resp.data;
+      });
     }
   }
 });
@@ -2352,8 +2279,6 @@ var _json_hosting_packages_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PU
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _json_hosting_laravel_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @json/hosting-laravel.json */ "./resources/assets/json/hosting-laravel.json");
-var _json_hosting_laravel_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/hosting-laravel.json */ "./resources/assets/json/hosting-laravel.json", 1);
 //
 //
 //
@@ -2407,28 +2332,25 @@ var _json_hosting_laravel_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PUR
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       list: {
-        hostingLaravel: _json_hosting_laravel_json__WEBPACK_IMPORTED_MODULE_0__
+        hostingLaravel: []
       }
     };
   },
-  mounted: function mounted() {// do something...
+  created: function created() {
+    this.getHostingLaravel();
+  },
+  methods: {
+    getHostingLaravel: function getHostingLaravel() {
+      var _this = this;
+
+      axios.get('api/laravel-support').then(function (resp) {
+        _this.list.hostingLaravel = resp.data;
+      });
+    }
   }
 });
 
@@ -2488,6 +2410,95 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/main/PhpLimit.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/assets/js/components/main/PhpLimit.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      list: {
+        phpLimit: []
+      }
+    };
+  },
+  created: function created() {
+    this.getPhpLimit();
+  },
+  methods: {
+    getPhpLimit: function getPhpLimit() {
+      var _this = this;
+
+      axios.get('api/php-limit').then(function (resp) {
+        _this.list.phpLimit = resp.data;
+      });
+    }
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/main/PhpModules.vue?vue&type=script&lang=js&":
 /*!*********************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/assets/js/components/main/PhpModules.vue?vue&type=script&lang=js& ***!
@@ -2497,8 +2508,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _json_php_modules_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @json/php-modules.json */ "./resources/assets/json/php-modules.json");
-var _json_php_modules_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/php-modules.json */ "./resources/assets/json/php-modules.json", 1);
 //
 //
 //
@@ -2564,33 +2573,25 @@ var _json_php_modules_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       list: {
-        phpModules: _json_php_modules_json__WEBPACK_IMPORTED_MODULE_0__
+        phpModules: []
       }
     };
   },
-  mounted: function mounted() {// do something...
+  created: function created() {
+    this.getHostingLaravel();
   },
   methods: {
+    getPhpModules: function getPhpModules() {
+      var _this = this;
+
+      axios.get('api/php-modules').then(function (resp) {
+        _this.list.phpModules = resp.data;
+      });
+    },
     sliceModule: function sliceModule() {
       var list = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
       var order = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
@@ -2699,50 +2700,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/main/Support.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/assets/js/components/main/Support.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({
-  data: function data() {
-    return {};
-  },
-  mounted: function mounted() {// do something
-  }
-});
-
-/***/ }),
-
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/master/footer/FooterAboutUs.vue?vue&type=script&lang=js&":
 /*!*********************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/assets/js/components/master/footer/FooterAboutUs.vue?vue&type=script&lang=js& ***!
@@ -2794,12 +2751,8 @@ var _json_footer_about_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _json_footer_hosting_services_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @json/footer/hosting-services.json */ "./resources/assets/json/footer/hosting-services.json");
-var _json_footer_hosting_services_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/footer/hosting-services.json */ "./resources/assets/json/footer/hosting-services.json", 1);
-/* harmony import */ var _json_footer_niaga_services_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @json/footer/niaga-services.json */ "./resources/assets/json/footer/niaga-services.json");
-var _json_footer_niaga_services_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/footer/niaga-services.json */ "./resources/assets/json/footer/niaga-services.json", 1);
-/* harmony import */ var _json_footer_tutorial_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @json/footer/tutorial.json */ "./resources/assets/json/footer/tutorial.json");
-var _json_footer_tutorial_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/footer/tutorial.json */ "./resources/assets/json/footer/tutorial.json", 1);
+/* harmony import */ var _json_footer_tutorial_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @json/footer/tutorial.json */ "./resources/assets/json/footer/tutorial.json");
+var _json_footer_tutorial_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! @json/footer/tutorial.json */ "./resources/assets/json/footer/tutorial.json", 1);
 //
 //
 //
@@ -2859,20 +2812,37 @@ var _json_footer_tutorial_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PUR
 //
 //
 //
-
-
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       list: {
-        hostingServices: _json_footer_hosting_services_json__WEBPACK_IMPORTED_MODULE_0__,
-        niagaServices: _json_footer_niaga_services_json__WEBPACK_IMPORTED_MODULE_1__,
-        tutorial: _json_footer_tutorial_json__WEBPACK_IMPORTED_MODULE_2__
+        hostingServices: [],
+        niagaServices: [],
+        tutorial: _json_footer_tutorial_json__WEBPACK_IMPORTED_MODULE_0__
       }
     };
   },
-  mounted: function mounted() {}
+  created: function created() {
+    this.getHostingServices();
+    this.getNiagaServices();
+  },
+  methods: {
+    getHostingServices: function getHostingServices() {
+      var _this = this;
+
+      axios.get('api/hosting-services').then(function (resp) {
+        _this.list.hostingServices = resp.data;
+      });
+    },
+    getNiagaServices: function getNiagaServices() {
+      var _this2 = this;
+
+      axios.get('api/niaga-services').then(function (resp) {
+        _this2.list.niagaServices = resp.data;
+      });
+    }
+  }
 });
 
 /***/ }),
@@ -2914,8 +2884,7 @@ __webpack_require__.r(__webpack_exports__);
     return {
       subscribe: ''
     };
-  },
-  mounted: function mounted() {}
+  }
 });
 
 /***/ }),
@@ -2958,11 +2927,22 @@ var _json_footer_payment_list_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#_
   data: function data() {
     return {
       list: {
-        payments: _json_footer_payment_list_json__WEBPACK_IMPORTED_MODULE_0__
+        payments: []
       }
     };
   },
-  mounted: function mounted() {}
+  created: function created() {
+    this.getPayments();
+  },
+  methods: {
+    getPayments: function getPayments() {
+      var _this = this;
+
+      axios.get('api/payment-list').then(function (resp) {
+        _this.list.payments = resp.data;
+      });
+    }
+  }
 });
 
 /***/ }),
@@ -3003,8 +2983,7 @@ var _json_footer_excellences_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__
         excellences: _json_footer_excellences_json__WEBPACK_IMPORTED_MODULE_0__
       }
     };
-  },
-  mounted: function mounted() {}
+  }
 });
 
 /***/ }),
@@ -3126,8 +3105,7 @@ var _json_Header_menus_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__
     return {
       menus: _json_Header_menus_json__WEBPACK_IMPORTED_MODULE_0__ || []
     };
-  },
-  mounted: function mounted() {}
+  }
 });
 
 /***/ }),
@@ -34332,7 +34310,7 @@ var render = function() {
       _vm._v(" "),
       _c("hosting-packages"),
       _vm._v(" "),
-      _c("benefits"),
+      _c("php-limit"),
       _vm._v(" "),
       _c("hr", { staticClass: "mini-hr" }),
       _vm._v(" "),
@@ -34435,121 +34413,6 @@ var render = function() {
   )
 }
 var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/main/Benefits.vue?vue&type=template&id=65af6ceb&":
-/*!***********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/assets/js/components/main/Benefits.vue?vue&type=template&id=65af6ceb& ***!
-  \***********************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("section", { staticClass: "main-hostingbenefits" }, [
-    _c("div", { staticClass: "container" }, [
-      _c("section", { staticClass: "row main-hostingbenefits__row" }, [
-        _vm._m(0),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-6 main-hostingbenefits__benefits" }, [
-          _c(
-            "ul",
-            { staticClass: "benefit-list" },
-            _vm._l(_vm.list.hostingBenefits.slice(0, 3), function(
-              hostingBenefit,
-              idx
-            ) {
-              return _c(
-                "li",
-                {
-                  key: "benefit_col1_" + idx,
-                  staticClass: "benefit-list__item"
-                },
-                [
-                  _c("i", {
-                    staticClass: "fa list-icon",
-                    class: hostingBenefit.checked
-                      ? ["fa-check-circle", "text-success"]
-                      : ["fa-close-circle", "text-danger"]
-                  }),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "text-center list-text" }, [
-                    _vm._v(
-                      "\n              " +
-                        _vm._s(hostingBenefit.text) +
-                        "\n            "
-                    )
-                  ])
-                ]
-              )
-            }),
-            0
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-6 main-hostingbenefits__benefits" }, [
-          _c(
-            "ul",
-            { staticClass: "benefit-list" },
-            _vm._l(_vm.list.hostingBenefits.slice(3, 6), function(
-              hostingBenefit,
-              idx
-            ) {
-              return _c(
-                "li",
-                {
-                  key: "benefit_col2_" + idx,
-                  staticClass: "benefit-list__item"
-                },
-                [
-                  _c("i", {
-                    staticClass: "fa list-icon",
-                    class: hostingBenefit.checked
-                      ? ["fa-check-circle", "text-success"]
-                      : ["fa-close-circle", "text-danger"]
-                  }),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "text-center list-text" }, [
-                    _vm._v(
-                      "\n              " +
-                        _vm._s(hostingBenefit.text) +
-                        "\n            "
-                    )
-                  ])
-                ]
-              )
-            }),
-            0
-          )
-        ])
-      ])
-    ])
-  ])
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-12 text-center" }, [
-      _c("h2", { staticClass: "text-montserrat-light" }, [
-        _vm._v(
-          "\n          Powerful dengan limit PHP yang lebih besar\n        "
-        )
-      ])
-    ])
-  }
-]
 render._withStripped = true
 
 
@@ -34664,7 +34527,7 @@ var render = function() {
           _c(
             "ul",
             { staticClass: "text__benefits benefit-list" },
-            _vm._l(_vm.list.benefits, function(benefit, idx) {
+            _vm._l(_vm.list.hero, function(benefit, idx) {
               return _c(
                 "li",
                 { key: "benefit_" + idx, staticClass: "benefit-list__item" },
@@ -34730,7 +34593,7 @@ var render = function() {
       _c(
         "div",
         { staticClass: "row main-elements__row" },
-        _vm._l(_vm.list.hostingFeatures, function(feature, idx) {
+        _vm._l(_vm.list.heroFeatures, function(feature, idx) {
           return _c(
             "div",
             {
@@ -34742,16 +34605,11 @@ var render = function() {
                 staticClass: "feature__image",
                 attrs: { src: _vm._f("svgUrl")(feature.img) }
               }),
-              _vm._v(" "),
-              feature.text
-                ? _c("span", { staticClass: "feature__text" }, [
-                    _vm._v(
-                      "\n                    " +
-                        _vm._s(feature.text) +
-                        "\n                "
-                    )
-                  ])
-                : _vm._e()
+              _vm._v(
+                "      \ncreated() {\n  this.getHero();\n},\nmethods: {\n  getHero() {\n    axios.get('api/hosting-niaga').then((resp) => {\n      this.list.hero = resp.data;\n    });\n  },\n},\n          " +
+                  _vm._s(feature.text) +
+                  "\n        "
+              )
             ]
           )
         }),
@@ -34822,9 +34680,9 @@ var render = function() {
                       _c("div", { staticClass: "package-item__header" }, [
                         _c("h3", { staticClass: "package__name" }, [
                           _vm._v(
-                            "\n                                    " +
+                            "\n                  " +
                               _vm._s(hostingPackage.name) +
-                              "\n                                "
+                              "\n                "
                           )
                         ])
                       ]),
@@ -34834,20 +34692,20 @@ var render = function() {
                           _c("del", { staticClass: "package__price-before" }, [
                             _vm._v(
                               _vm._s(hostingPackage.currency) +
-                                "\n                                        " +
+                                "\n                    " +
                                 _vm._s(
                                   _vm._f("decimalFormat")(
                                     hostingPackage.priceBeforeDiscount
                                   )
                                 ) +
-                                "\n                                    "
+                                "\n                  "
                             )
                           ]),
                           _vm._v(" "),
                           _c("ins", { staticClass: "package__price-after" }, [
                             _vm._v(
                               _vm._s(hostingPackage.currency) +
-                                "\n                                        "
+                                "\n                    "
                             ),
                             _c("span", {
                               staticClass: "package__price-after-discount",
@@ -34858,11 +34716,11 @@ var render = function() {
                               }
                             }),
                             _vm._v(
-                              "\n                                        /\n                                        " +
+                              "\n                    /\n                    " +
                                 _vm._s(
                                   hostingPackage.subscriptionFrequency || "bln"
                                 ) +
-                                "\n                                    "
+                                "\n                  "
                             )
                           ])
                         ])
@@ -34871,17 +34729,17 @@ var render = function() {
                       _c("div", { staticClass: "package-item__user" }, [
                         _c("strong", [
                           _vm._v(
-                            "\n                                    " +
+                            "\n                  " +
                               _vm._s(
                                 _vm._f("decimalFormat")(
                                   hostingPackage.userCount
                                 )
                               ) +
-                              "\n                                "
+                              "\n                "
                           )
                         ]),
                         _vm._v(
-                          "\n                                Pengguna Terdaftar\n                            "
+                          "\n                Pengguna Terdaftar\n              "
                         )
                       ]),
                       _vm._v(" "),
@@ -34892,9 +34750,9 @@ var render = function() {
                           [
                             _c("li", { staticClass: "benefit-list__item" }, [
                               _vm._v(
-                                "\n                                        " +
+                                "\n                    " +
                                   _vm._s(hostingPackage.resourcePower) +
-                                  "X\n                                        resource power\n                                    "
+                                  "X resource power\n                  "
                               )
                             ]),
                             _vm._v(" "),
@@ -34935,7 +34793,7 @@ var render = function() {
                           [
                             _c("span", [
                               _vm._v(
-                                "\n                                        " +
+                                "\n                    " +
                                   _vm._s(
                                     !!hostingPackage.discount
                                       ? "Discount " +
@@ -34943,7 +34801,7 @@ var render = function() {
                                           hostingPackage.discountUnit
                                       : "Pilih sekarang"
                                   ) +
-                                  "\n                                    "
+                                  "\n                  "
                               )
                             ])
                           ]
@@ -34975,14 +34833,12 @@ var staticRenderFns = [
         },
         [
           _c("h2", { staticClass: "header__title" }, [
-            _vm._v(
-              "\n                    Paket Hosting Singapura yang tepat\n                "
-            )
+            _vm._v("\n          Paket Hosting Singapura yang tepat\n        ")
           ]),
           _vm._v(" "),
           _c("p", { staticClass: "header__tagline" }, [
             _vm._v(
-              "\n                    Diskon 40% + Domain dan SSL Gratis untuk Anda\n                "
+              "\n          Diskon 40% + Domain dan SSL Gratis untuk Anda\n        "
             )
           ])
         ]
@@ -35019,7 +34875,7 @@ var render = function() {
         _c("article", { staticClass: "col-md-7 main-hero__text" }, [
           _c("p", { staticClass: "text__description" }, [
             _vm._v(
-              "\n                    Tak perlu menggunakan dedicated server ataupun VPS yang\n                    mahal. Layanan PHP hosting kami mendukung penuh\n                    framework favorit Anda.\n                "
+              "\n          Tak perlu menggunakan dedicated server ataupun VPS yang mahal.\n          Layanan PHP hosting kami mendukung penuh framework favorit Anda.\n        "
             )
           ]),
           _vm._v(" "),
@@ -35056,11 +34912,7 @@ var render = function() {
               staticClass: "btn btn-primary m-top-10 btn-niaga",
               attrs: { type: "button", name: "hostingButton" }
             },
-            [
-              _vm._v(
-                "\n                    Pilih Hosting Anda\n                "
-              )
-            ]
+            [_vm._v("\n          Pilih Hosting Anda\n        ")]
           )
         ]),
         _vm._v(" "),
@@ -35076,9 +34928,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-md-12 text-center" }, [
       _c("h2", { staticClass: "text__header text-montserrat-light" }, [
-        _vm._v(
-          "\n                    Mendukung penuh framework Laravel\n                "
-        )
+        _vm._v("\n          Mendukung penuh framework Laravel\n        ")
       ])
     ])
   },
@@ -35089,7 +34939,7 @@ var staticRenderFns = [
     return _c("p", [
       _c("small", [
         _vm._v(
-          "Nb: Composer dan SSH hanya tersedia pada paket\n                        Personal dan Bisnis"
+          "Nb: Composer dan SSH hanya tersedia pada paket Personal dan\n            Bisnis"
         )
       ])
     ])
@@ -35204,6 +35054,121 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/main/PhpLimit.vue?vue&type=template&id=1304505c&":
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/assets/js/components/main/PhpLimit.vue?vue&type=template&id=1304505c& ***!
+  \***********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("section", { staticClass: "main-hostingbenefits" }, [
+    _c("div", { staticClass: "container" }, [
+      _c("section", { staticClass: "row main-benefits__row" }, [
+        _vm._m(0),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-6 main-benefits__benefits" }, [
+          _c(
+            "ul",
+            { staticClass: "benefit-list" },
+            _vm._l(_vm.list.phpLimit.slice(0, 3), function(
+              hostingBenefit,
+              idx
+            ) {
+              return _c(
+                "li",
+                {
+                  key: "benefit_col1_" + idx,
+                  staticClass: "benefit-list__item"
+                },
+                [
+                  _c("i", {
+                    staticClass: "fa list-icon",
+                    class: hostingBenefit.checked
+                      ? ["fa-check-circle", "text-success"]
+                      : ["fa-close-circle", "text-danger"]
+                  }),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "text-center list-text" }, [
+                    _vm._v(
+                      "\n              " +
+                        _vm._s(hostingBenefit.text) +
+                        "\n            "
+                    )
+                  ])
+                ]
+              )
+            }),
+            0
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-6 main-benefits__benefits" }, [
+          _c(
+            "ul",
+            { staticClass: "benefit-list" },
+            _vm._l(_vm.list.phpLimit.slice(3, 6), function(
+              hostingBenefit,
+              idx
+            ) {
+              return _c(
+                "li",
+                {
+                  key: "benefit_col2_" + idx,
+                  staticClass: "benefit-list__item"
+                },
+                [
+                  _c("i", {
+                    staticClass: "fa list-icon",
+                    class: hostingBenefit.checked
+                      ? ["fa-check-circle", "text-success"]
+                      : ["fa-close-circle", "text-danger"]
+                  }),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "text-center list-text" }, [
+                    _vm._v(
+                      "\n              " +
+                        _vm._s(hostingBenefit.text) +
+                        "\n            "
+                    )
+                  ])
+                ]
+              )
+            }),
+            0
+          )
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-12 text-center" }, [
+      _c("h2", { staticClass: "text-montserrat-light" }, [
+        _vm._v(
+          "\n          Powerful dengan limit PHP yang lebih besar\n        "
+        )
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/main/PhpModules.vue?vue&type=template&id=08edac44&":
 /*!*************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/assets/js/components/main/PhpModules.vue?vue&type=template&id=08edac44& ***!
@@ -35235,13 +35200,7 @@ var render = function() {
               return _c(
                 "li",
                 { key: "module" + idx, staticClass: "php-modules-list__item" },
-                [
-                  _vm._v(
-                    "\n                        " +
-                      _vm._s(module) +
-                      "\n                    "
-                  )
-                ]
+                [_vm._v("\n            " + _vm._s(module) + "\n          ")]
               )
             }),
             0
@@ -35259,13 +35218,7 @@ var render = function() {
               return _c(
                 "li",
                 { key: "module" + idx, staticClass: "php-modules-list__item" },
-                [
-                  _vm._v(
-                    "\n                        " +
-                      _vm._s(module) +
-                      "\n                    "
-                  )
-                ]
+                [_vm._v("\n            " + _vm._s(module) + "\n          ")]
               )
             }),
             0
@@ -35283,13 +35236,7 @@ var render = function() {
               return _c(
                 "li",
                 { key: "module" + idx, staticClass: "php-modules-list__item" },
-                [
-                  _vm._v(
-                    "\n                        " +
-                      _vm._s(module) +
-                      "\n                    "
-                  )
-                ]
+                [_vm._v("\n            " + _vm._s(module) + "\n          ")]
               )
             }),
             0
@@ -35307,13 +35254,7 @@ var render = function() {
               return _c(
                 "li",
                 { key: "module" + idx, staticClass: "php-modules-list__item" },
-                [
-                  _vm._v(
-                    "\n                        " +
-                      _vm._s(module) +
-                      "\n                    "
-                  )
-                ]
+                [_vm._v("\n            " + _vm._s(module) + "\n          ")]
               )
             }),
             0
@@ -35336,7 +35277,7 @@ var staticRenderFns = [
       [
         _c("h1", { staticClass: "header__title" }, [
           _vm._v(
-            "\n                    Modul lengkap untuk menjalankan aplikasi PHP Anda\n                "
+            "\n          Modul lengkap untuk menjalankan aplikasi PHP Anda\n        "
           )
         ])
       ]
@@ -35354,7 +35295,7 @@ var staticRenderFns = [
             staticClass: "btn btn-niaga btn-dark btn-bordered",
             attrs: { type: "button" }
           },
-          [_vm._v("\n                    Selengkapnya\n                ")]
+          [_vm._v("\n          Selengkapnya\n        ")]
         )
       ])
     ])
@@ -35471,13 +35412,11 @@ var staticRenderFns = [
         _c("div", { staticClass: "row " }, [
           _c("div", { staticClass: "col-sm-10" }, [
             _c("p", { staticClass: "main-support__tagline" }, [
-              _vm._v("\n                    Perlu\n                    "),
+              _vm._v("\n          Perlu\n          "),
               _c("strong", { staticClass: "text-montserrat-bold" }, [
                 _vm._v("BANTUAN?")
               ]),
-              _vm._v(
-                "\n                    Hubungi kami:\n                    "
-              ),
+              _vm._v("\n          Hubungi kami:\n          "),
               _c("strong", { staticClass: "text-montserrat-bold" }, [
                 _vm._v("0274-5305505")
               ])
@@ -35490,7 +35429,7 @@ var staticRenderFns = [
               { staticClass: "btn btn-niaga btn-light btn-bordered" },
               [
                 _c("i", { staticClass: "fa fa-comment icon-left" }),
-                _vm._v("\n                    Live Chat\n                ")
+                _vm._v("\n          Live Chat\n        ")
               ]
             )
           ])
@@ -48476,6 +48415,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__(/*! ./bootstrap */ "./resources/assets/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -48824,75 +48764,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Header_vue_vue_type_template_id_0a7a9d53___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Header_vue_vue_type_template_id_0a7a9d53___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/assets/js/components/main/Benefits.vue":
-/*!**********************************************************!*\
-  !*** ./resources/assets/js/components/main/Benefits.vue ***!
-  \**********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Benefits_vue_vue_type_template_id_65af6ceb___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Benefits.vue?vue&type=template&id=65af6ceb& */ "./resources/assets/js/components/main/Benefits.vue?vue&type=template&id=65af6ceb&");
-/* harmony import */ var _Benefits_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Benefits.vue?vue&type=script&lang=js& */ "./resources/assets/js/components/main/Benefits.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _Benefits_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Benefits_vue_vue_type_template_id_65af6ceb___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Benefits_vue_vue_type_template_id_65af6ceb___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/assets/js/components/main/Benefits.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/assets/js/components/main/Benefits.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************!*\
-  !*** ./resources/assets/js/components/main/Benefits.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Benefits_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Benefits.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/main/Benefits.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Benefits_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/assets/js/components/main/Benefits.vue?vue&type=template&id=65af6ceb&":
-/*!*****************************************************************************************!*\
-  !*** ./resources/assets/js/components/main/Benefits.vue?vue&type=template&id=65af6ceb& ***!
-  \*****************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Benefits_vue_vue_type_template_id_65af6ceb___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Benefits.vue?vue&type=template&id=65af6ceb& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/main/Benefits.vue?vue&type=template&id=65af6ceb&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Benefits_vue_vue_type_template_id_65af6ceb___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Benefits_vue_vue_type_template_id_65af6ceb___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -49312,6 +49183,75 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/assets/js/components/main/PhpLimit.vue":
+/*!**********************************************************!*\
+  !*** ./resources/assets/js/components/main/PhpLimit.vue ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _PhpLimit_vue_vue_type_template_id_1304505c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PhpLimit.vue?vue&type=template&id=1304505c& */ "./resources/assets/js/components/main/PhpLimit.vue?vue&type=template&id=1304505c&");
+/* harmony import */ var _PhpLimit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PhpLimit.vue?vue&type=script&lang=js& */ "./resources/assets/js/components/main/PhpLimit.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _PhpLimit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _PhpLimit_vue_vue_type_template_id_1304505c___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _PhpLimit_vue_vue_type_template_id_1304505c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/assets/js/components/main/PhpLimit.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/assets/js/components/main/PhpLimit.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************!*\
+  !*** ./resources/assets/js/components/main/PhpLimit.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PhpLimit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./PhpLimit.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/main/PhpLimit.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PhpLimit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/assets/js/components/main/PhpLimit.vue?vue&type=template&id=1304505c&":
+/*!*****************************************************************************************!*\
+  !*** ./resources/assets/js/components/main/PhpLimit.vue?vue&type=template&id=1304505c& ***!
+  \*****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PhpLimit_vue_vue_type_template_id_1304505c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./PhpLimit.vue?vue&type=template&id=1304505c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/main/PhpLimit.vue?vue&type=template&id=1304505c&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PhpLimit_vue_vue_type_template_id_1304505c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PhpLimit_vue_vue_type_template_id_1304505c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/assets/js/components/main/PhpModules.vue":
 /*!************************************************************!*\
   !*** ./resources/assets/js/components/main/PhpModules.vue ***!
@@ -49460,17 +49400,15 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Support_vue_vue_type_template_id_633feb20___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Support.vue?vue&type=template&id=633feb20& */ "./resources/assets/js/components/main/Support.vue?vue&type=template&id=633feb20&");
-/* harmony import */ var _Support_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Support.vue?vue&type=script&lang=js& */ "./resources/assets/js/components/main/Support.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-
-
+var script = {}
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _Support_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
   _Support_vue_vue_type_template_id_633feb20___WEBPACK_IMPORTED_MODULE_0__["render"],
   _Support_vue_vue_type_template_id_633feb20___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
@@ -49484,20 +49422,6 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 if (false) { var api; }
 component.options.__file = "resources/assets/js/components/main/Support.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/assets/js/components/main/Support.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************!*\
-  !*** ./resources/assets/js/components/main/Support.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Support_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Support.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/main/Support.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Support_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -50178,28 +50102,6 @@ module.exports = JSON.parse("[{\"url\":\"\",\"text\":\"Support Terbaik\"},{\"url
 
 /***/ }),
 
-/***/ "./resources/assets/json/footer/hosting-services.json":
-/*!************************************************************!*\
-  !*** ./resources/assets/json/footer/hosting-services.json ***!
-  \************************************************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("[{\"url\":\"\",\"text\":\"Hosting Murah\"},{\"url\":\"\",\"text\":\"Hosting Indonesia\"},{\"url\":\"\",\"text\":\"Hosting Singapura SG\"},{\"url\":\"\",\"text\":\"Hosting PHP\"},{\"url\":\"\",\"text\":\"Hosting Wordpress\"},{\"url\":\"\",\"text\":\"Hosting Laravel\"}]");
-
-/***/ }),
-
-/***/ "./resources/assets/json/footer/niaga-services.json":
-/*!**********************************************************!*\
-  !*** ./resources/assets/json/footer/niaga-services.json ***!
-  \**********************************************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("[{\"url\":\"\",\"text\":\"Domain\"},{\"url\":\"\",\"text\":\"Shared Hosting\"},{\"url\":\"\",\"text\":\"Cloud VPS Hosting\"},{\"url\":\"\",\"text\":\"Managed VPS Hosting\"},{\"url\":\"\",\"text\":\"Web Builder\"},{\"url\":\"\",\"text\":\"Keamanan SSL/HTTPS\"},{\"url\":\"\",\"text\":\"Jasa Pembuatan Website\"},{\"url\":\"\",\"text\":\"Program Afiliasi\"}]");
-
-/***/ }),
-
 /***/ "./resources/assets/json/footer/payment-list.json":
 /*!********************************************************!*\
   !*** ./resources/assets/json/footer/payment-list.json ***!
@@ -50219,83 +50121,6 @@ module.exports = JSON.parse("[{\"url\":\"bca_logo.png\",\"id\":\"bca\"},{\"url\"
 /***/ (function(module) {
 
 module.exports = JSON.parse("[{\"url\":\"\",\"text\":\"Knowledgebase\"},{\"url\":\"\",\"text\":\"Blog\"},{\"url\":\"\",\"text\":\"Cara pembayaran\"}]");
-
-/***/ }),
-
-/***/ "./resources/assets/json/hosting-benefits.json":
-/*!*****************************************************!*\
-  !*** ./resources/assets/json/hosting-benefits.json ***!
-  \*****************************************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("[{\"checked\":true,\"text\":\"max execution time 300s\"},{\"checked\":true,\"text\":\"max execution time 300s\"},{\"checked\":true,\"text\":\"php memory limit 1024 MB\"},{\"checked\":true,\"text\":\"post max size 128 MB\"},{\"checked\":true,\"text\":\"upload max filesize 128 MB\"},{\"checked\":true,\"text\":\"max input vars 2500\"}]");
-
-/***/ }),
-
-/***/ "./resources/assets/json/hosting-bundles.json":
-/*!****************************************************!*\
-  !*** ./resources/assets/json/hosting-bundles.json ***!
-  \****************************************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("[{\"img\":\"icon PHP Hosting_PHP Semua Versi.svg\",\"title\":\"PHP Semua Versi\",\"description\":\"Pilih mulai dari versi PHP 5.3 s/d PHP 7. Ubah sesuka Anda!\"},{\"img\":\"icon PHP Hosting_My SQL.svg\",\"title\":\"MySQL Versi 5.6\",\"description\":\"Nikmati MySQL versi terbaru, tercepat dan kaya akan fitur.\"},{\"img\":\"icon PHP Hosting_CPanel.svg\",\"title\":\"Panel Hosting cPanel\",\"description\":\"Kelola website dengan panel canggih yang familiar di hati Anda.\"},{\"img\":\"icon PHP Hosting_garansi uptime.svg\",\"title\":\"Garansi Uptime 99.9%\",\"description\":\"Data center yang mendukung kelangsungan website Anda 24/7.\"},{\"img\":\"icon PHP Hosting_InnoDB.svg\",\"title\":\"Database InnoDB Unlimited\",\"description\":\"Jumlah dan ukuran database yang tumbuh sesuai kebutuhan Anda.\"},{\"img\":\"icon PHP Hosting_My SQL remote.svg\",\"title\":\"Wildcard Remote MySQL\",\"description\":\"Mendukung s/d 25 max_user_connections dan 100 max_connections\"}]");
-
-/***/ }),
-
-/***/ "./resources/assets/json/hosting-features.json":
-/*!*****************************************************!*\
-  !*** ./resources/assets/json/hosting-features.json ***!
-  \*****************************************************/
-/*! exports provided: 0, 1, 2, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("[{\"img\":\"icon PHP Hosting_zendguard.svg\",\"text\":\"PHP Zend Guard Loader\"},{\"img\":\"icon PHP Hosting_composer.svg\",\"text\":\"PHP Composer\"},{\"img\":\"icon PHP Hosting_ioncube.svg\",\"text\":\"PHP ionCube Loader\"}]");
-
-/***/ }),
-
-/***/ "./resources/assets/json/hosting-laravel.json":
-/*!****************************************************!*\
-  !*** ./resources/assets/json/hosting-laravel.json ***!
-  \****************************************************/
-/*! exports provided: 0, 1, 2, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("[{\"checked\":true,\"text\":\"Install Laravel <b>1 klik</b> dengan Softaculous installer\"},{\"checked\":true,\"text\":\"Mendukung ekstensi <b>PHP MyCript, phar, mbstring, json</b> dan <b>fileinfo</b>.\"},{\"checked\":true,\"text\":\"Tersedia <b>Composer</b> dan <b>SSH</b> untuk menginstal packages pilihan Anda.\"}]");
-
-/***/ }),
-
-/***/ "./resources/assets/json/hosting-packages.json":
-/*!*****************************************************!*\
-  !*** ./resources/assets/json/hosting-packages.json ***!
-  \*****************************************************/
-/*! exports provided: 0, 1, 2, 3, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("[{\"name\":\"Bayi\",\"currency\":\"Rp\",\"recommended\":false,\"bestseller\":false,\"discount\":0,\"discountUnit\":\"%\",\"subscriptionFrequency\":\"bln\",\"priceBeforeDiscount\":19900,\"priceAfterDiscount\":14900,\"userCount\":938,\"resourcePower\":0.5,\"benefits\":[\"<b>500 MB</b> Disk Space\",\"<b>Unlimited</b> Bandwidth\",\"<b>Unlimited</b> Databases\",\"<b>1</b> Domain\",\"<b>Instant</b> Backup\",\"<b>Unlimited SSL</b> Gratis Selamanya\"]},{\"name\":\"Pelajar\",\"currency\":\"Rp\",\"recommended\":false,\"bestseller\":false,\"discount\":0,\"discountUnit\":\"%\",\"subscriptionFrequency\":\"bln\",\"priceBeforeDiscount\":46900,\"priceAfterDiscount\":23450,\"userCount\":4168,\"resourcePower\":1,\"benefits\":[\"<b>Unlimited</b> Disk Space\",\"<b>Unlimited</b> Bandwidth\",\"<b>Unlimited</b> POP3 Email\",\"<b>Unlimited</b> Databases\",\"<b>10</b> Addon Domains\",\"<b>Instant</b> Backup\",\"<b>Domain Gratis</b> Selamanya\",\"<b>Unlimited SSL</b> Gratis Selamanya\"]},{\"name\":\"Personal\",\"currency\":\"Rp\",\"recommended\":true,\"bestseller\":true,\"discount\":0,\"discountUnit\":\"%\",\"subscriptionFrequency\":\"bln\",\"priceBeforeDiscount\":58900,\"priceAfterDiscount\":38900,\"userCount\":10017,\"resourcePower\":2,\"benefits\":[\"<b>Unlimited</b> Disk Space\",\"<b>Unlimited</b> Bandwidth\",\"<b>Unlimited</b> POP3 Email\",\"<b>Unlimited</b> Databases\",\"<b>Unlimited</b> Addon Domains\",\"<b>Instant</b> Backup\",\"<b>Domain Gratis</b> Selamanya\",\"<b>Unlimited SSL</b> Gratis Selamanya\",\"<b>Private</b> Name Server\",\"<b>SpamAssasin</b> Mail Protection\"]},{\"name\":\"Bisnis\",\"currency\":\"Rp\",\"recommended\":false,\"bestseller\":false,\"discount\":40,\"discountUnit\":\"%\",\"subscriptionFrequency\":\"bln\",\"priceBeforeDiscount\":109900,\"priceAfterDiscount\":65900,\"userCount\":3552,\"resourcePower\":3,\"benefits\":[\"<b>Unlimited</b> Disk Space\",\"<b>Unlimited</b> Bandwidth\",\"<b>Unlimited</b> POP3 Email\",\"<b>Unlimited</b> Databases\",\"<b>Unlimited</b> Addon Domains\",\"<b>Magic Auto</b> Backup & Restore\",\"<b>Domain Gratis</b> Selamanya\",\"<b>Unlimited SSL</b> Gratis Selamanya\",\"<b>Private</b> Name Server\",\"<b>Prioritas</b> Layanan Support <br/><div> <i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i></div>\",\"<b>SpamExpert</b> Pro Mail Protection\"]}]");
-
-/***/ }),
-
-/***/ "./resources/assets/json/niagahoster-benefits.json":
-/*!*********************************************************!*\
-  !*** ./resources/assets/json/niagahoster-benefits.json ***!
-  \*********************************************************/
-/*! exports provided: 0, 1, 2, 3, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("[{\"checked\":true,\"text\":\"Solusi PHP untuk performa query yang lebih cepat\"},{\"checked\":true,\"text\":\"Konsumsi memori yang lebih rendah\"},{\"checked\":true,\"text\":\"Support PHP 5.3, PHP 5.4, PHP 5.5, PHP 5.6, PHP 7\"},{\"checked\":true,\"text\":\"Fitur enkripsi ionCube dan Zend Guard Loaders\"}]");
-
-/***/ }),
-
-/***/ "./resources/assets/json/php-modules.json":
-/*!************************************************!*\
-  !*** ./resources/assets/json/php-modules.json ***!
-  \************************************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("[\"IcePHP\",\"apc\",\"apcu\",\"apm\",\"ares\",\"bcmath\",\"bcompiler\",\"big_int\",\"bitset\",\"bloomy\",\"bz2_filter\",\"clamav\",\"coin_acceptor\",\"crack\",\"dba\",\"http\",\"huffman\",\"idn\",\"igbinary\",\"imagick\",\"imap\",\"inclued\",\"inotify\",\"interbase\",\"intl\",\"ioncube_loader\",\"ioncube_loader_4\",\"jsmin\",\"json\",\"ldap\",\"nd_pdo_mysql\",\"oauth\",\"oci8\",\"odbc\",\"opcache\",\"pdf\",\"pdo\",\"pdo_dblib\",\"pdo_firebird\",\"pdo_mysql\",\"pdo_odbc\",\"pdo_sqlite\",\"pgsql\",\"phalcon\",\"stats\",\"stem\",\"stomp\",\"suhosin\",\"sybase_ct\",\"sysvmsg\",\"sysvsem\",\"sysvshm\",\"tidy\",\"timezonedb\",\"trader\",\"translit\",\"uploadprogress\",\"uri_template\",\"uuid\"]");
 
 /***/ }),
 

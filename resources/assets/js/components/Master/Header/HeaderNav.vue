@@ -49,6 +49,5 @@ export default {
       menus: menus || [],
     };
   },
-  mounted() {},
 };
 </script>

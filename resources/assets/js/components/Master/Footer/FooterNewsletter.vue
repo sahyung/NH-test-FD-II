@@ -28,6 +28,5 @@ export default {
       subscribe: '',
     };
   },
-  mounted() {},
 };
 </script>

@@ -11,14 +11,10 @@ import MainItem from '@js/components/Main.vue';
 import FooterItem from '@js/components/Master/Footer.vue';
 export default {
   name: 'App',
-  data() {
-    return {};
-  },
   components: {
     HeaderItem,
     MainItem,
     FooterItem,
   },
-  mounted() {},
 };
 </script>

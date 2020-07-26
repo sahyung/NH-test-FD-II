@@ -7,6 +7,7 @@
 require("./bootstrap");
 
 window.Vue = require("vue");
+window.axios = require('axios');
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -14,15 +15,18 @@ window.Vue = require("vue");
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-import { kFormatter, decimalFormat } from "@js/helpers/number-formatter.js";
+import {
+	kFormatter,
+	decimalFormat
+} from "@js/helpers/number-formatter.js";
 
 Vue.component("app", require("@js/components/App.vue").default);
 
-Vue.filter("imageUrl", function(fileName) {
+Vue.filter("imageUrl", function (fileName) {
 	return fileName ? require("@images/" + fileName) : "";
 });
 
-Vue.filter("svgUrl", function(fileName) {
+Vue.filter("svgUrl", function (fileName) {
 	return fileName ? require("@svg/" + fileName) : "";
 });
 
